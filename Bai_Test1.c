@@ -25,7 +25,7 @@ int main(){
 				printf("Nhap so phan tu can nhap: ");
 				scanf("%d", &n);
 				for(i=0; i<n; i++) {
-					printf("Nhap gia tri cac phan tu: ", i + 1);
+					printf("arr[%d] = ", i);
 					scanf("%d", &arr[i]);
 				}
 				break;
@@ -150,7 +150,7 @@ int main(){
 			 	scanf("%d", &searchValue);
 			 	for(i=0; i<n; i++) {
 			 		if(arr[i] == searchValue) {
-			 			printf("Phan tu %d xuat hien tai vi tri arr[%d][%d]\n", searchValue, i, j);
+			 			printf("Phan tu %d xuat hien tai vi tri arr[%d]\n", searchValue, i);
 			 			check=1;
 			 			break;			 			
 					 }
